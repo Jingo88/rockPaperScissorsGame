@@ -57,11 +57,14 @@ button:hover{
 }
 
 .game {
-	width: 900px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	min-width: 1000px;
+	max-width: 1000px;
 	height: 300px;
 	border: 10px solid black;
 	overflow: inherit;
-	margin: 0 auto;
 }
 
 .gameimage {
@@ -75,9 +78,29 @@ button:hover{
 
 
 /*Score Tracker CSS*/
+#players{
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+	overflow: auto;
+	font-size: 30px;
+}
+
+.player{
+	text-decoration: underline;
+}
+
+#user{
+	float: left;
+}
+
+#comp {
+	float: right;
+}
+
 .scoretracker {
 	text-align: center;
-	margin-top: 35px;
+	margin-top: 10px;
 }
 
 .scoreboard {
@@ -85,6 +108,7 @@ button:hover{
 	margin-left: 40px;
 	font-size: 30px;
 	font-weight: 600;
+	margin-bottom: 10px;
 }
 
 .score {
@@ -94,3 +118,17 @@ button:hover{
 	font-size: 30px;
 	font-weight: 600;
 }
+
+.resetB{
+	margin-top: 10px;
+	width: 5%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#scorereset{
+	margin: 0 auto;
+	width: 100%;
+}
+
+
